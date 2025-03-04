@@ -53,11 +53,11 @@
 
 // a. Hint: follow the pattern.
 variable1 = 1;
-variable2 = ;
-variable3 3;
+variable2 = 2;
+variable3 = 3;
 
 // b. Hint: This function needs a name after the word function.
-function () {
+function helloWorld() {
   console.log("Hello!");
 }
 
@@ -117,11 +117,11 @@ console.log("1. I would like to go above.");
 // portion of the code.
 
 let a = 1234;
-                a++;
+a++;
 if (a > 123) {
-a--;
+  a--;
 } else a++;
-            console.log(a);
+console.log(a);
 
 // Nothing happened?
 // If so, your code (technically my code, if you just cloned it)
